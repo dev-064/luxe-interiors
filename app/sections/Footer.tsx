@@ -18,11 +18,12 @@ const quickLinks = [
 ];
 
 const services = [
-  "Residential Design",
-  "Commercial Design",
-  "Interior Styling",
-  "Furniture Design",
-  "Lighting Design",
+  "Living Room & Double-Height",
+  "Modular Kitchen",
+  "Designer Bedrooms",
+  "Staircase Design",
+  "False Ceiling & Lighting",
+  "Customized Furniture",
 ];
 
 export default function Footer() {
@@ -38,10 +39,10 @@ export default function Footer() {
           <div className="lg:col-span-1">
             <a href="#home" className="flex items-center gap-2 mb-6">
               <span className="font-serif text-xl font-semibold tracking-wider text-white">
-                LUXE
+                ICRAFT
               </span>
               <span className="font-sans text-sm tracking-widest text-amber-500">
-                INTERIORS
+                DESIGNZ
               </span>
             </a>
             <p className="font-sans text-neutral-400 text-sm leading-relaxed mb-6">
@@ -132,7 +133,7 @@ export default function Footer() {
         {/* Bottom Bar */}
         <div className="mt-16 pt-8 border-t border-neutral-800 flex flex-col md:flex-row items-center justify-between gap-4">
           <p className="font-sans text-neutral-500 text-sm">
-            © 2024 Luxe Interiors. All rights reserved.
+            © 2024 Icraft Designz & Interiors. All rights reserved.
           </p>
           <div className="flex items-center gap-6">
             <a

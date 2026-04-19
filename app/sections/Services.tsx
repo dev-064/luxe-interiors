@@ -7,45 +7,39 @@ import { Home, Building2, Palette, Sofa, Lightbulb, Ruler } from "lucide-react";
 const services = [
   {
     icon: Home,
-    title: "Residential Design",
-    description:
-      "Transform your home into a sanctuary that reflects your personality. From cozy apartments to luxury villas, we create spaces you'll love coming home to.",
-    features: ["Space Planning", "Custom Furniture", "Color Consultation"],
+    title: "Living Room & Double-Height",
+    description: "Premium living room & double-height designs that create a grand impression.",
+    features: ["Double-Height", "Premium Finishes"],
   },
   {
     icon: Building2,
-    title: "Commercial Spaces",
-    description:
-      "Elevate your business environment with designs that inspire productivity and impress clients. Offices, retail spaces, and hospitality venues.",
-    features: ["Office Design", "Retail Layouts", "Hospitality"],
+    title: "Modular Kitchen",
+    description: "Modular kitchen with high-end finishes, optimizing space and utility.",
+    features: ["High-end Finishes", "Smart Storage"],
   },
   {
     icon: Palette,
-    title: "Interior Styling",
-    description:
-      "The finishing touches that make all the difference. Our styling service brings together textures, colors, and accessories for a cohesive look.",
-    features: ["Art Curation", "Accessory Selection", "Styling"],
-  },
-  {
-    icon: Sofa,
-    title: "Furniture Design",
-    description:
-      "Custom furniture pieces designed and crafted to fit your space perfectly. From statement sofas to bespoke storage solutions.",
-    features: ["Custom Pieces", "Upholstery", "Restoration"],
-  },
-  {
-    icon: Lightbulb,
-    title: "Lighting Design",
-    description:
-      "Create the perfect ambiance with expertly designed lighting schemes. We balance natural and artificial light for every mood and function.",
-    features: ["Ambient Lighting", "Task Lighting", "Smart Systems"],
+    title: "Designer Bedrooms",
+    description: "Designer bedrooms & walk-in wardrobes tailored to your style.",
+    features: ["Walk-in Wardrobes", "Custom Design"],
   },
   {
     icon: Ruler,
-    title: "Space Planning",
-    description:
-      "Maximize your space potential with intelligent layout planning. We optimize flow, functionality, and comfort for any room size.",
-    features: ["Floor Plans", "3D Visualization", "Flow Analysis"],
+    title: "Staircase Design",
+    description: "Staircase design & space optimization for seamless movement in duplexes.",
+    features: ["Space Optimization", "Elegant Stairs"],
+  },
+  {
+    icon: Lightbulb,
+    title: "False Ceiling & Lighting",
+    description: "False ceiling with advanced lighting to enhance the ambiance.",
+    features: ["Advanced Lighting", "False Ceiling"],
+  },
+  {
+    icon: Sofa,
+    title: "Customized Furniture",
+    description: "Customized furniture & décor that perfectly fits your home layout.",
+    features: ["Custom Furniture", "Décor Selection"],
   },
 ];
 

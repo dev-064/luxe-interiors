@@ -6,10 +6,10 @@ import ScrollReveal from "../components/ScrollReveal";
 import { Award, Users, Clock, Sparkles } from "lucide-react";
 
 const stats = [
-  { icon: Clock, value: 15, suffix: "+", label: "Years of Experience" },
-  { icon: Users, value: 500, suffix: "+", label: "Happy Clients" },
-  { icon: Award, value: 50, suffix: "+", label: "Design Awards" },
-  { icon: Sparkles, value: 98, suffix: "%", label: "Satisfaction Rate" },
+  { icon: Users, value: 255, suffix: "+", label: "Google Reviews" },
+  { icon: Award, value: 50, suffix: "+", label: "Lakhs Project Range" },
+  { icon: Clock, value: 15, suffix: "+", label: "Lakhs Starting Price" },
+  { icon: Sparkles, value: 100, suffix: "%", label: "Turnkey Solutions" },
 ];
 
 function AnimatedCounter({ value, suffix }: { value: number; suffix: string }) {
@@ -98,32 +98,24 @@ export default function About() {
               <div className="flex items-center gap-4 mb-6">
                 <span className="h-px w-12 bg-amber-500" />
                 <span className="text-amber-600 font-sans text-sm tracking-[0.3em] uppercase">
-                  About Us
+                  Why Choose Us
                 </span>
               </div>
 
               <h2 className="font-serif text-4xl md:text-5xl text-neutral-900 mb-6">
-                Creating Beautiful Spaces Since{" "}
-                <span className="text-amber-600">2010</span>
+                Luxury Duplex Interiors Designed to{" "}
+                <span className="text-amber-600">Perfection ✨</span>
               </h2>
 
               <div className="space-y-4 font-sans text-neutral-600 leading-relaxed">
                 <p>
-                  At Luxe Interiors, we believe that great design has the power to transform
-                  lives. Founded in 2010, our studio has been at the forefront of interior
-                  design innovation, creating spaces that are both beautiful and functional.
+                  We design spaces that reflect your lifestyle with a perfect balance of luxury, comfort, and smart planning. 🏡
                 </p>
                 <p>
-                  Our team of passionate designers brings together diverse expertise in
-                  residential, commercial, and hospitality design. We take pride in our
-                  collaborative approach, working closely with each client to understand
-                  their unique vision and bring it to life.
+                  From 2D planning and 3D visualization to final execution, we handle everything with precision and quality. We provide complete turnkey interior solutions for your duplex.
                 </p>
                 <p>
-                  From concept to completion, we handle every detail with precision and care,
-                  ensuring that each project exceeds expectations. Our commitment to quality,
-                  sustainability, and timeless design has earned us recognition as one of the
-                  leading interior design studios in the region.
+                  💰 Project Range: ₹15 Lakhs to ₹50 Lakhs+ (based on design & materials). Book your FREE consultation today to get started on your dream duplex!
                 </p>
               </div>
             </ScrollReveal>

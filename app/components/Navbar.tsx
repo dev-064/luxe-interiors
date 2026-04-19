@@ -46,14 +46,14 @@ export default function Navbar() {
                   isScrolled ? "text-neutral-900" : "text-white"
                 }`}
               >
-                LUXE
+                ICRAFT
               </span>
               <span
                 className={`font-sans text-sm tracking-widest transition-colors duration-300 ${
                   isScrolled ? "text-amber-600" : "text-amber-400"
                 }`}
               >
-                INTERIORS
+                DESIGNZ
               </span>
             </a>
 

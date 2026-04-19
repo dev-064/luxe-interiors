@@ -48,7 +48,7 @@ export default function Hero() {
           >
             <span className="h-px w-12 bg-amber-400" />
             <span className="text-amber-400 font-sans text-sm tracking-[0.3em] uppercase">
-              Since 2010
+              Interior Designers in Hyderabad
             </span>
             <span className="h-px w-12 bg-amber-400" />
           </motion.div>
@@ -60,9 +60,9 @@ export default function Hero() {
             transition={{ duration: 0.8, delay: 0.4 }}
             className="font-serif text-5xl sm:text-6xl md:text-7xl lg:text-8xl text-white leading-tight"
           >
-            Crafting Spaces
+            Luxury Duplex
             <br />
-            <span className="text-amber-400">That Inspire</span>
+            <span className="text-amber-400">Interiors</span>
           </motion.h1>
 
           {/* Description */}
@@ -72,8 +72,7 @@ export default function Hero() {
             transition={{ duration: 0.6, delay: 0.6 }}
             className="max-w-2xl mx-auto text-white/80 font-sans text-lg md:text-xl leading-relaxed"
           >
-            We transform ordinary spaces into extraordinary experiences.
-            Our bespoke interior designs blend timeless elegance with modern functionality.
+            Looking for expert duplex house interior designers in Hyderabad? We specialize in creating modern, elegant, and functional duplex home interiors with complete end-to-end execution.
           </motion.p>
 
           {/* CTA Buttons */}
@@ -112,10 +111,10 @@ export default function Hero() {
         >
           <div className="max-w-4xl mx-auto grid grid-cols-2 md:grid-cols-4 gap-8">
             {[
-              { number: "500+", label: "Projects Completed" },
-              { number: "15", label: "Years Experience" },
-              { number: "50+", label: "Design Awards" },
-              { number: "98%", label: "Client Satisfaction" },
+              { number: "4.7", label: "Google Rating (255)" },
+              { number: "₹15L", label: "Starting Project Range" },
+              { number: "100%", label: "Turnkey Execution" },
+              { number: "500+", label: "Happy Clients" },
             ].map((stat, index) => (
               <motion.div
                 key={stat.label}

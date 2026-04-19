@@ -9,32 +9,33 @@ const contactInfo = [
   {
     icon: MapPin,
     title: "Visit Our Studio",
-    details: ["123 Design Avenue", "New York, NY 10001"],
+    details: ["SHILPARAMAM, 3rd, near Cyber Towers", "above nilakamal, Surya Enclave", "HITEC City, Hyderabad, Telangana 500081"],
   },
   {
     icon: Phone,
     title: "Call Us",
-    details: ["+1 (555) 123-4567", "Mon - Fri, 9am - 6pm"],
+    details: ["096180 37772", "Mon - Sat, 9am - 5:30pm"],
   },
   {
     icon: Mail,
-    title: "Email Us",
-    details: ["hello@luxeinteriors.com", "projects@luxeinteriors.com"],
+    title: "Website",
+    details: ["www.icraftdesignz.com", "Book FREE consultation"],
   },
   {
     icon: Clock,
     title: "Working Hours",
-    details: ["Monday - Friday: 9AM - 6PM", "Saturday: 10AM - 4PM"],
+    details: ["Monday - Saturday", "Closes 5:30 pm"],
   },
 ];
 
 const services = [
-  "Residential Design",
-  "Commercial Design",
-  "Interior Styling",
-  "Furniture Design",
-  "Lighting Design",
-  "Space Planning",
+  "Premium living room & double-height designs",
+  "Modular kitchen with high-end finishes",
+  "Designer bedrooms & walk-in wardrobes",
+  "Staircase design & space optimization",
+  "False ceiling with advanced lighting",
+  "Customized furniture & décor",
+  "Complete turnkey interior solutions",
 ];
 
 export default function Contact() {
@@ -143,7 +144,7 @@ export default function Contact() {
                       value={formData.phone}
                       onChange={handleChange}
                       className="w-full px-4 py-3 bg-neutral-50 border border-neutral-200 rounded-lg font-sans text-neutral-900 focus:outline-none focus:border-amber-500 transition-colors"
-                      placeholder="+1 (555) 000-0000"
+                      placeholder="096180 37772"
                     />
                   </div>
                   <div>

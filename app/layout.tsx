@@ -2,9 +2,9 @@ import type { Metadata } from "next";
 import "./globals.css";
 
 export const metadata: Metadata = {
-  title: "Luxe Interiors | Premium Interior Design Studio",
-  description: "Transform your space with Luxe Interiors. We create bespoke interior designs that blend elegance, functionality, and timeless beauty.",
-  keywords: "interior design, luxury interiors, home design, residential design, commercial design",
+  title: "Icraft Designz & Interiors | Interior Designers in Hyderabad",
+  description: "Luxury Duplex Interiors Designed to Perfection ✨ Looking for expert duplex house interior designers in Hyderabad? Icraft Designz & Interiors specializes in creating modern, elegant, and functional duplex home interiors with complete end-to-end execution.",
+  keywords: "interior design, duplex interiors, hyderabad, luxury interiors, home design",
 };
 
 export default function RootLayout({
